@@ -1,0 +1,30 @@
+.logo {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+
+  &-color {
+    color: $accent-color;
+
+    &-header {
+      color: #000;
+    }
+
+    &-footer {
+      color: $color-theme-color;
+    }
+  }
+
+  .navigation & {
+    margin-right: 93px;
+    padding-top: 25px;
+    padding-bottom: 26px;
+  }
+
+  .footer-item > & {
+    margin-bottom: 20px;
+  }
+}

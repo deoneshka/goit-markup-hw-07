@@ -1,0 +1,26 @@
+.hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1600px 600px;
+
+  &-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $color-theme-color;
+  max-width: 696px;
+  margin-bottom: 30px;
+}
+}
+
+.modal-button {
+  padding: 10px 28px;
+}
